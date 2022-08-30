@@ -1,0 +1,1 @@
+[{"pathid": 0, "data": [{"edgeid": 237, "variable": [{"name": "ignoringZone", "recommendFormat": "text"}]}, {"edgeid": 72, "variable": [{"name": "email", "recommendFormat": "email"}, {"name": "apiKey", "recommendFormat": "number.text"}, {"name": "status", "recommendFormat": "text"}]}, {"edgeid": 126, "variable": []}, {"edgeid": 168, "variable": []}]}]

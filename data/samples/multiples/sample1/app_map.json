@@ -1,0 +1,2578 @@
+{
+    "Nodes": [
+        {
+            "id": "1",
+            "label": "https://testops.staging.katalon.com/api/v1/katone/page/admin/organization/[NUMBER]/create_project"
+        },
+        {
+            "id": "4",
+            "label": "https://testops.staging.katalon.com/organization/[NUMBER]/teams/[...]"
+        },
+        {
+            "id": "5",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/admin/project"
+        },
+        {
+            "id": "2",
+            "label": "https://testops.staging.katalon.com/organization/[NUMBER]/home"
+        },
+        {
+            "id": "3",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]"
+        },
+        {
+            "id": "6",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/[...]"
+        },
+        {
+            "id": "7",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/[...]/[NUMBER]"
+        },
+        {
+            "id": "0",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/executions/[NUMBER]/test-result/[...]"
+        },
+        {
+            "id": "14",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/executions/[NUMBER]/test-runs"
+        },
+        {
+            "id": "11",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/test-project/create/git"
+        },
+        {
+            "id": "12",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/baseline-collection/1/version"
+        },
+        {
+            "id": "8",
+            "label": "https://testops.staging.katalon.com/team/[NUMBER]/project/[NUMBER]/test-design/[...]"
+        },
+        {
+            "id": "13",
+            "label": "https://testops.staging.katalon.com/team/252472/project/346718/test-reports/[...]/[...]"
+        },
+        {
+            "id": "10",
+            "label": "https://testops.staging.katalon.com/team/252674/project/347143/test-reports/[...]/[...]"
+        },
+        {
+            "id": "9",
+            "label": "https://testops.staging.katalon.com/team/252674/project/347143/agent/[...]"
+        }
+    ],
+    "Edges": [
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".no-card .card-body\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(6) > :nth-child(12) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Visual\\\\ Baseline\\\\ Collections'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='The\\\\ total\\\\ number\\\\ of\\\\ Agents\\\\ by\\\\ status\\\\ and\\\\ OS'] svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-2-option-1\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiBackdrop-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-expanded='true'] svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiBackdrop-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/70690\\\\/project\\\\/83798'] .card-header\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Settings'] .icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/45453\\\\/project\\\\/59673\\\\/executions']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263131-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 3']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Distribution\\\\ of\\\\ Test\\\\ Cases\\\\ by\\\\ their\\\\ flakiness\\\\ probability\\\\.'] svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"circle\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[datetime='\\\\31 660065811096']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 4']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".badge-trial\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".requirement-coverage-legend .d-flex\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#Rectangle-Copy-15\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".btn-primary\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(4)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#time-filter\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(15) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='The\\\\ total\\\\ number\\\\ of\\\\ Agents\\\\ by\\\\ status\\\\ and\\\\ OS'] path\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M8\\\\.59\\\\ 16\\\\.59L13\\\\.17\\\\ 12\\\\ 8\\\\.59\\\\ 7\\\\.41\\\\ 10\\\\ 6l6\\\\ 6-6\\\\ 6-1\\\\.41-1\\\\.41z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(9) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='background-image\\\\:\\\\ url\\\\(\\\\\\\"\\\\/api\\\\/v1\\\\/files\\\\/357907026\\\\\\\"\\\\)\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-6-option-1\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[viewBox='\\\\30 \\\\ 0\\\\ 14\\\\ 13']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".name\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='outline\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 0\\\\,\\\\ 0\\\\)\\\\ solid\\\\ 2px\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".col [aria-label='Page\\\\ 2']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='width\\\\:\\\\ 24px\\\\;\\\\ height\\\\:\\\\ 24px\\\\;\\\\ line-height\\\\:\\\\ initial\\\\;\\\\ text-align\\\\:\\\\ center\\\\;\\\\ color\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 255\\\\,\\\\ 255\\\\)\\\\;\\\\ border-radius\\\\:\\\\ 24px\\\\;\\\\ background\\\\:\\\\ rgb\\\\(103\\\\,\\\\ 174\\\\,\\\\ 63\\\\)\\\\;'] [style='display\\\\:\\\\ table-cell\\\\;\\\\ vertical-align\\\\:\\\\ middle\\\\;\\\\ white-space\\\\:\\\\ nowrap\\\\;'] span\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"div.mt-2 .statistics-title\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Quality\\\\ of\\\\ each\\\\ Requirement\\\\ based\\\\ on\\\\ the\\\\ status\\\\ of\\\\ the\\\\ corresponding\\\\ Test\\\\ Result\\\\.'] path\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/259117\\\\/project\\\\/367618\\\\/executions\\\\/5\\\\/test-result\\\\/102263595-new-test-case-fail']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/158146\\\\/executions\\\\/837\\\\/test-result\\\\/102245155-tc003_fail']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".css-8mmkcg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "change",
+                "{\"#cb-zone-purple\":{\"name\":\"ignoringZone\",\"value\":\"on\"}}",
+                "[\"#cb-zone-purple\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#draw-ignore-zones\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".ant-tree-treenode-selected [d='M840\\\\.4\\\\ 300H183\\\\.6c-19\\\\.7\\\\ 0-30\\\\.7\\\\ 20\\\\.8-18\\\\.5\\\\ 35l328\\\\.4\\\\ 380\\\\.8c9\\\\.4\\\\ 10\\\\.9\\\\ 27\\\\.5\\\\ 10\\\\.9\\\\ 37\\\\ 0L858\\\\.9\\\\ 335c12\\\\.2-14\\\\.2\\\\ 1\\\\.2-35-18\\\\.5-35z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".name\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "6"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".react-select__indicator\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".dropdown-menu.show [data-trackid]\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "change",
+                "{\"#username\":{\"name\":\"username\",\"value\":\"tuan.nguyen@katalon.com\"}}",
+                "[\"#username\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".sidebar-layout__main-content\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".toast-close-button\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Settings']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M118\\\\.125\\\\ 60C118\\\\.125\\\\ 27\\\\.8906\\\\ 92\\\\.1094\\\\ 1\\\\.875\\\\ 60\\\\ 1\\\\.875C27\\\\.8906\\\\ 1\\\\.875\\\\ 1\\\\.875\\\\ 27\\\\.8906\\\\ 1\\\\.875\\\\ 60C1\\\\.875\\\\ 92\\\\.1094\\\\ 27\\\\.8906\\\\ 118\\\\.125\\\\ 60\\\\ 118\\\\.125C92\\\\.1094\\\\ 118\\\\.125\\\\ 118\\\\.125\\\\ 92\\\\.1094\\\\ 118\\\\.125\\\\ 60ZM13\\\\.125\\\\ 60C13\\\\.125\\\\ 34\\\\.2188\\\\ 33\\\\.9844\\\\ 13\\\\.125\\\\ 60\\\\ 13\\\\.125C85\\\\.7812\\\\ 13\\\\.125\\\\ 106\\\\.875\\\\ 34\\\\.2188\\\\ 106\\\\.875\\\\ 60C106\\\\.875\\\\ 86\\\\.0156\\\\ 85\\\\.7812\\\\ 106\\\\.875\\\\ 60\\\\ 106\\\\.875C33\\\\.9844\\\\ 106\\\\.875\\\\ 13\\\\.125\\\\ 86\\\\.0156\\\\ 13\\\\.125\\\\ 60ZM38\\\\.2031\\\\ 58\\\\.125C37\\\\.0312\\\\ 59\\\\.2969\\\\ 37\\\\.0312\\\\ 60\\\\.9375\\\\ 38\\\\.2031\\\\ 62\\\\.1094L67\\\\.0312\\\\ 90\\\\.9375C68\\\\.2031\\\\ 91\\\\.875\\\\ 69\\\\.8438\\\\ 91\\\\.875\\\\ 71\\\\.0156\\\\ 90\\\\.9375L76\\\\.1719\\\\ 85\\\\.5469C77\\\\.3438\\\\ 84\\\\.375\\\\ 77\\\\.3438\\\\ 82\\\\.7344\\\\ 76\\\\.1719\\\\ 81\\\\.5625L54\\\\.8438\\\\ 60L76\\\\.1719\\\\ 38\\\\.6719C77\\\\.3438\\\\ 37\\\\.5\\\\ 77\\\\.3438\\\\ 35\\\\.625\\\\ 76\\\\.1719\\\\ 34\\\\.6875L71\\\\.0156\\\\ 29\\\\.2969C69\\\\.8438\\\\ 28\\\\.125\\\\ 68\\\\.2031\\\\ 28\\\\.125\\\\ 67\\\\.0312\\\\ 29\\\\.2969L38\\\\.2031\\\\ 58\\\\.125Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Settings']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Recent\\\\ Work'] .icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[x='\\\\39 39'][y='\\\\32 96\\\\.25'] tspan\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(10) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(11) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[viewBox='\\\\30 \\\\ 0\\\\ 12\\\\ 7']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M8\\\\.29761\\\\ 1\\\\.98999C8\\\\.8148\\\\ 2\\\\.00762\\\\ 9\\\\.14979\\\\ 2\\\\.18981\\\\ 9\\\\.42602\\\\ 2\\\\.52481C9\\\\.9726\\\\ 3\\\\.18306\\\\ 10\\\\.6779\\\\ 3\\\\.52981\\\\ 11\\\\.5359\\\\ 3\\\\.53569C12\\\\.3822\\\\ 3\\\\.54156\\\\ 13\\\\.0875\\\\ 3\\\\.21244\\\\ 13\\\\.6517\\\\ 2\\\\.57771C14\\\\.1924\\\\ 1\\\\.96648\\\\ 14\\\\.6449\\\\ 1\\\\.85482\\\\ 15\\\\.409\\\\ 2\\\\.15455C16\\\\.4492\\\\ 2\\\\.56008\\\\ 17\\\\.3955\\\\ 3\\\\.12428\\\\ 18\\\\.2535\\\\ 3\\\\.83542C18\\\\.7355\\\\ 4\\\\.23507\\\\ 18\\\\.8824\\\\ 4\\\\.76401\\\\ 18\\\\.6767\\\\ 5\\\\.35173C18\\\\.089\\\\ 7\\\\.05611\\\\ 19\\\\.0528\\\\ 8\\\\.71347\\\\ 20\\\\.8277\\\\ 9\\\\.04847C21\\\\.4801\\\\ 9\\\\.17189\\\\ 21\\\\.8327\\\\ 9\\\\.53627\\\\ 21\\\\.9561\\\\ 10\\\\.1945C22\\\\.1795\\\\ 11\\\\.3935\\\\ 22\\\\.1618\\\\ 12\\\\.5865\\\\ 21\\\\.9326\\\\ 13\\\\.7796C21\\\\.8268\\\\ 14\\\\.3438\\\\ 21\\\\.3861\\\\ 14\\\\.7493\\\\ 20\\\\.8101\\\\ 14\\\\.8434C18\\\\.9764\\\\ 15\\\\.1313\\\\ 17\\\\.9597\\\\ 16\\\\.8592\\\\ 18\\\\.612\\\\ 18\\\\.6047C18\\\\.8354\\\\ 19\\\\.1983\\\\ 18\\\\.6943\\\\ 19\\\\.7449\\\\ 18\\\\.2124\\\\ 20\\\\.1446C17\\\\.3837\\\\ 20\\\\.8322\\\\ 16\\\\.4669\\\\ 21\\\\.3788\\\\ 15\\\\.4677\\\\ 21\\\\.7843C14\\\\.8859\\\\ 22\\\\.0194\\\\ 14\\\\.2923\\\\ 21\\\\.8724\\\\ 13\\\\.9103\\\\ 21\\\\.3729C12\\\\.7701\\\\ 19\\\\.8625\\\\ 10\\\\.5251\\\\ 19\\\\.9036\\\\ 9\\\\.44365\\\\ 21\\\\.4317C9\\\\.06751\\\\ 21\\\\.9665\\\\ 8\\\\.4798\\\\ 22\\\\.1134\\\\ 7\\\\.8627\\\\ 21\\\\.8783C6\\\\.77542\\\\ 21\\\\.4669\\\\ 5\\\\.78805\\\\ 20\\\\.891\\\\ 4\\\\.88885\\\\ 20\\\\.1563C4\\\\.39517\\\\ 19\\\\.7508\\\\ 4\\\\.27175\\\\ 19\\\\.1866\\\\ 4\\\\.53622\\\\ 18\\\\.5518C5\\\\.18271\\\\ 17\\\\.0062\\\\ 4\\\\.37166\\\\ 15\\\\.29\\\\ 2\\\\.77895\\\\ 14\\\\.8257C2\\\\.59088\\\\ 14\\\\.7728\\\\ 2\\\\.39105\\\\ 14\\\\.7434\\\\ 2\\\\.19711\\\\ 14\\\\.7141C1\\\\.64465\\\\ 14\\\\.6259\\\\ 1\\\\.2215\\\\ 14\\\\.2027\\\\ 1\\\\.13334\\\\ 13\\\\.6444C0\\\\.939392\\\\ 12\\\\.4513\\\\ 0\\\\.957023\\\\ 11\\\\.2642\\\\ 1\\\\.18623\\\\ 10\\\\.077C1\\\\.30965\\\\ 9\\\\.43636\\\\ 1\\\\.73281\\\\ 9\\\\.04259\\\\ 2\\\\.39693\\\\ 8\\\\.95443C3\\\\.86034\\\\ 8\\\\.76049\\\\ 4\\\\.88297\\\\ 7\\\\.56742\\\\ 4\\\\.81832\\\\ 6\\\\.09813C4\\\\.80657\\\\ 5\\\\.80427\\\\ 4\\\\.72429\\\\ 5\\\\.50454\\\\ 4\\\\.63025\\\\ 5\\\\.22243C4\\\\.42455\\\\ 4\\\\.59945\\\\ 4\\\\.57148\\\\ 4\\\\.05875\\\\ 5\\\\.08279\\\\ 3\\\\.65323C5\\\\.93498\\\\ 2\\\\.98323\\\\ 6\\\\.87533\\\\ 2\\\\.46016\\\\ 7\\\\.89208\\\\ 2\\\\.0899C8\\\\.05076\\\\ 2\\\\.03113\\\\ 8\\\\.21532\\\\ 2\\\\.00762\\\\ 8\\\\.29761\\\\ 1\\\\.98999ZM15\\\\.0799\\\\ 12\\\\.0106C15\\\\.1034\\\\ 10\\\\.1181\\\\ 13\\\\.54\\\\ 8\\\\.49601\\\\ 11\\\\.6593\\\\ 8\\\\.47251C9\\\\.66698\\\\ 8\\\\.44312\\\\ 8\\\\.06252\\\\ 9\\\\.98881\\\\ 8\\\\.04489\\\\ 11\\\\.9459C8\\\\.02138\\\\ 13\\\\.8677\\\\ 9\\\\.57295\\\\ 15\\\\.484\\\\ 11\\\\.4654\\\\ 15\\\\.5075C13\\\\.4578\\\\ 15\\\\.5369\\\\ 15\\\\.0505\\\\ 13\\\\.997\\\\ 15\\\\.0799\\\\ 12\\\\.0106Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".mb-sm-0\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "change",
+                "{\"#password\":{\"name\":\"password\",\"value\":\"Nht@@1234\"}}",
+                "[\"#password\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M8\\\\.29761\\\\ 1\\\\.98999C8\\\\.8148\\\\ 2\\\\.00762\\\\ 9\\\\.14979\\\\ 2\\\\.18981\\\\ 9\\\\.42602\\\\ 2\\\\.52481C9\\\\.9726\\\\ 3\\\\.18306\\\\ 10\\\\.6779\\\\ 3\\\\.52981\\\\ 11\\\\.5359\\\\ 3\\\\.53569C12\\\\.3822\\\\ 3\\\\.54156\\\\ 13\\\\.0875\\\\ 3\\\\.21244\\\\ 13\\\\.6517\\\\ 2\\\\.57771C14\\\\.1924\\\\ 1\\\\.96648\\\\ 14\\\\.6449\\\\ 1\\\\.85482\\\\ 15\\\\.409\\\\ 2\\\\.15455C16\\\\.4492\\\\ 2\\\\.56008\\\\ 17\\\\.3955\\\\ 3\\\\.12428\\\\ 18\\\\.2535\\\\ 3\\\\.83542C18\\\\.7355\\\\ 4\\\\.23507\\\\ 18\\\\.8824\\\\ 4\\\\.76401\\\\ 18\\\\.6767\\\\ 5\\\\.35173C18\\\\.089\\\\ 7\\\\.05611\\\\ 19\\\\.0528\\\\ 8\\\\.71347\\\\ 20\\\\.8277\\\\ 9\\\\.04847C21\\\\.4801\\\\ 9\\\\.17189\\\\ 21\\\\.8327\\\\ 9\\\\.53627\\\\ 21\\\\.9561\\\\ 10\\\\.1945C22\\\\.1795\\\\ 11\\\\.3935\\\\ 22\\\\.1618\\\\ 12\\\\.5865\\\\ 21\\\\.9326\\\\ 13\\\\.7796C21\\\\.8268\\\\ 14\\\\.3438\\\\ 21\\\\.3861\\\\ 14\\\\.7493\\\\ 20\\\\.8101\\\\ 14\\\\.8434C18\\\\.9764\\\\ 15\\\\.1313\\\\ 17\\\\.9597\\\\ 16\\\\.8592\\\\ 18\\\\.612\\\\ 18\\\\.6047C18\\\\.8354\\\\ 19\\\\.1983\\\\ 18\\\\.6943\\\\ 19\\\\.7449\\\\ 18\\\\.2124\\\\ 20\\\\.1446C17\\\\.3837\\\\ 20\\\\.8322\\\\ 16\\\\.4669\\\\ 21\\\\.3788\\\\ 15\\\\.4677\\\\ 21\\\\.7843C14\\\\.8859\\\\ 22\\\\.0194\\\\ 14\\\\.2923\\\\ 21\\\\.8724\\\\ 13\\\\.9103\\\\ 21\\\\.3729C12\\\\.7701\\\\ 19\\\\.8625\\\\ 10\\\\.5251\\\\ 19\\\\.9036\\\\ 9\\\\.44365\\\\ 21\\\\.4317C9\\\\.06751\\\\ 21\\\\.9665\\\\ 8\\\\.4798\\\\ 22\\\\.1134\\\\ 7\\\\.8627\\\\ 21\\\\.8783C6\\\\.77542\\\\ 21\\\\.4669\\\\ 5\\\\.78805\\\\ 20\\\\.891\\\\ 4\\\\.88885\\\\ 20\\\\.1563C4\\\\.39517\\\\ 19\\\\.7508\\\\ 4\\\\.27175\\\\ 19\\\\.1866\\\\ 4\\\\.53622\\\\ 18\\\\.5518C5\\\\.18271\\\\ 17\\\\.0062\\\\ 4\\\\.37166\\\\ 15\\\\.29\\\\ 2\\\\.77895\\\\ 14\\\\.8257C2\\\\.59088\\\\ 14\\\\.7728\\\\ 2\\\\.39105\\\\ 14\\\\.7434\\\\ 2\\\\.19711\\\\ 14\\\\.7141C1\\\\.64465\\\\ 14\\\\.6259\\\\ 1\\\\.2215\\\\ 14\\\\.2027\\\\ 1\\\\.13334\\\\ 13\\\\.6444C0\\\\.939392\\\\ 12\\\\.4513\\\\ 0\\\\.957023\\\\ 11\\\\.2642\\\\ 1\\\\.18623\\\\ 10\\\\.077C1\\\\.30965\\\\ 9\\\\.43636\\\\ 1\\\\.73281\\\\ 9\\\\.04259\\\\ 2\\\\.39693\\\\ 8\\\\.95443C3\\\\.86034\\\\ 8\\\\.76049\\\\ 4\\\\.88297\\\\ 7\\\\.56742\\\\ 4\\\\.81832\\\\ 6\\\\.09813C4\\\\.80657\\\\ 5\\\\.80427\\\\ 4\\\\.72429\\\\ 5\\\\.50454\\\\ 4\\\\.63025\\\\ 5\\\\.22243C4\\\\.42455\\\\ 4\\\\.59945\\\\ 4\\\\.57148\\\\ 4\\\\.05875\\\\ 5\\\\.08279\\\\ 3\\\\.65323C5\\\\.93498\\\\ 2\\\\.98323\\\\ 6\\\\.87533\\\\ 2\\\\.46016\\\\ 7\\\\.89208\\\\ 2\\\\.0899C8\\\\.05076\\\\ 2\\\\.03113\\\\ 8\\\\.21532\\\\ 2\\\\.00762\\\\ 8\\\\.29761\\\\ 1\\\\.98999ZM15\\\\.0799\\\\ 12\\\\.0106C15\\\\.1034\\\\ 10\\\\.1181\\\\ 13\\\\.54\\\\ 8\\\\.49601\\\\ 11\\\\.6593\\\\ 8\\\\.47251C9\\\\.66698\\\\ 8\\\\.44312\\\\ 8\\\\.06252\\\\ 9\\\\.98881\\\\ 8\\\\.04489\\\\ 11\\\\.9459C8\\\\.02138\\\\ 13\\\\.8677\\\\ 9\\\\.57295\\\\ 15\\\\.484\\\\ 11\\\\.4654\\\\ 15\\\\.5075C13\\\\.4578\\\\ 15\\\\.5369\\\\ 15\\\\.0505\\\\ 13\\\\.997\\\\ 15\\\\.0799\\\\ 12\\\\.0106Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#password\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='outline\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 0\\\\,\\\\ 0\\\\)\\\\ solid\\\\ 2px\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='outline\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 0\\\\,\\\\ 0\\\\)\\\\ solid\\\\ 2px\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "change",
+                "{\"#cb-zone-pink\":{\"name\":\"diffZone\",\"value\":\"on\"}}",
+                "[\"#cb-zone-pink\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\33 0\\\\.69px']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(11) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 6px']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".upper-canvas\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[src='https\\\\:\\\\/\\\\/katalon-test\\\\.s3\\\\.amazonaws\\\\.com\\\\/ab0c3960-ded0-4908-bafd-b3cd373aea17']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#failure-reason-select\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiPickersDay-today\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#search-input\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[data-testid='ArrowRightIcon']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Choose\\\\ date\\\\,\\\\ selected\\\\ date\\\\ is\\\\ Aug\\\\ 10\\\\,\\\\ 2022']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".btn-secondary\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".text-secondary\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-2-option-0\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "change",
+                "{\"#cb-zone-red\":{\"name\":\"diffPartZone\",\"value\":\"on\"}}",
+                "[\"#cb-zone-red\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(9) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[data-testid='ArrowLeftIcon']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".test-activities-header-title\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#root_158738\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "change",
+                "{\"#cb-zone-red\":{\"name\":\"shiftedZone\",\"value\":\"on\"}}",
+                "[\"#cb-zone-red\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(7) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".left-navbar-transition-enter\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#mui-71 svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#mui-109 .MuiButtonBase-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#refresh-btn-project-dashboard\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263251-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 2']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiIconButton-sizeMedium\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='position\\\\:\\\\ absolute\\\\;\\\\ width\\\\:\\\\ auto\\\\;\\\\ height\\\\:\\\\ auto\\\\;\\\\ right\\\\:\\\\ 24px\\\\;\\\\ bottom\\\\:\\\\ 14px\\\\;'] .legend-item-1 .recharts-legend-item-text\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"div.text-center\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(6) > :nth-child(13) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".name\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".toast-close-button\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".main-body\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".d-block[href='\\\\/team\\\\/143841\\\\/project\\\\/158146\\\\/baseline-collection\\\\/1']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='width\\\\:\\\\ 24px\\\\;\\\\ height\\\\:\\\\ 24px\\\\;\\\\ line-height\\\\:\\\\ initial\\\\;\\\\ text-align\\\\:\\\\ center\\\\;\\\\ color\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 255\\\\,\\\\ 255\\\\)\\\\;\\\\ border-radius\\\\:\\\\ 24px\\\\;\\\\ background\\\\:\\\\ rgb\\\\(103\\\\,\\\\ 174\\\\,\\\\ 63\\\\)\\\\;'] [style='display\\\\:\\\\ table-cell\\\\;\\\\ vertical-align\\\\:\\\\ middle\\\\;\\\\ white-space\\\\:\\\\ nowrap\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiModal-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#cb-zone-purple\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#cb-zone-red\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".checkpoint-comparison\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".pb-0 .d-flex\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Sort\\\\ A\\\\ to\\\\ Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='background-image\\\\:\\\\ url\\\\(\\\\\\\"\\\\/api\\\\/v1\\\\/files\\\\/357907024\\\\\\\"\\\\)\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='outline\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 0\\\\,\\\\ 0\\\\)\\\\ solid\\\\ 2px\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(11) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M4\\\\.516\\\\ 7\\\\.548c0\\\\.436-0\\\\.446\\\\ 1\\\\.043-0\\\\.481\\\\ 1\\\\.576\\\\ 0l3\\\\.908\\\\ 3\\\\.747\\\\ 3\\\\.908-3\\\\.747c0\\\\.533-0\\\\.481\\\\ 1\\\\.141-0\\\\.446\\\\ 1\\\\.574\\\\ 0\\\\ 0\\\\.436\\\\ 0\\\\.445\\\\ 0\\\\.408\\\\ 1\\\\.197\\\\ 0\\\\ 1\\\\.615-0\\\\.406\\\\ 0\\\\.418-4\\\\.695\\\\ 4\\\\.502-4\\\\.695\\\\ 4\\\\.502-0\\\\.217\\\\ 0\\\\.223-0\\\\.502\\\\ 0\\\\.335-0\\\\.787\\\\ 0\\\\.335s-0\\\\.57-0\\\\.112-0\\\\.789-0\\\\.335c0\\\\ 0-4\\\\.287-4\\\\.084-4\\\\.695-4\\\\.502s-0\\\\.436-1\\\\.17\\\\ 0-1\\\\.615z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".null\"]"
+            ]
+        },
+        {
+            "edge": [
+                "15",
+                "2"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Choose\\\\ date\\\\,\\\\ selected\\\\ date\\\\ is\\\\ Aug\\\\ 14\\\\,\\\\ 2022'] svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/70690\\\\/project\\\\/83798'] .card-body\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(11) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(7)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".mt-2\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(4) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"canvas\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(9) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".css-70qvj9 .MuiButtonBase-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#search-input\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Apply\\\\ the\\\\ zone\\\\ to\\\\ all\\\\ images'] .MuiButtonBase-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Dashboard'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#failure-reason-select-option-0\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Choose\\\\ date\\\\,\\\\ selected\\\\ date\\\\ is\\\\ Mar\\\\ 1\\\\,\\\\ 2022'] path\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102262931-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "8",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Reports'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-3-option-2\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-2-option-1\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[for='failure-reason']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(4) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"img\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#failure-reason-select-option-3\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[data-trackid='re-import-execution']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#react-select-3-option-0\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#failure-reason-select-option-1\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Choose\\\\ date\\\\,\\\\ selected\\\\ date\\\\ is\\\\ Aug\\\\ 14\\\\,\\\\ 2022'] path\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(5) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".no-card .card-body > .project-dashboard-header-title\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiAutocomplete-fullWidth .MuiOutlinedInput-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiLink-underlineAlways[href='\\\\/organization\\\\/342063\\\\/home']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='background-image\\\\:\\\\ url\\\\(\\\\\\\"\\\\/api\\\\/v1\\\\/files\\\\/357889515\\\\\\\"\\\\)\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[viewBox='\\\\30 \\\\ 0\\\\ 12\\\\ 7']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263247-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/45453\\\\/project\\\\/59673\\\\/failed-test-result']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Configurations'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(7) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[viewBox='\\\\30 \\\\ 0\\\\ 192\\\\ 512']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Test\\\\ Run\\\\ List'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[data-trackid='save-draft-ignoring-zone']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(8) > :nth-child(1) > :nth-child(1) > :nth-child(3)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[height='\\\\31 3']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Choose\\\\ date\\\\,\\\\ selected\\\\ date\\\\ is\\\\ Aug\\\\ 8\\\\,\\\\ 2022'] svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#select-organization\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".left-navbar-menu-container .custom-navbar\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M12\\\\.3185\\\\ 2\\\\.93945H10\\\\.049L9\\\\.11926\\\\ 1\\\\.4082C8\\\\.87317\\\\ 0\\\\.998047\\\\ 8\\\\.46301\\\\ 0\\\\.751953\\\\ 7\\\\.99817\\\\ 0\\\\.751953H5\\\\.23645C4\\\\.77161\\\\ 0\\\\.751953\\\\ 4\\\\.36145\\\\ 0\\\\.998047\\\\ 4\\\\.11536\\\\ 1\\\\.4082L3\\\\.18567\\\\ 2\\\\.93945H0\\\\.943481C0\\\\.697388\\\\ 2\\\\.93945\\\\ 0\\\\.505981\\\\ 3\\\\.1582\\\\ 0\\\\.505981\\\\ 3\\\\.37695V3\\\\.81445C0\\\\.505981\\\\ 4\\\\.06055\\\\ 0\\\\.697388\\\\ 4\\\\.25195\\\\ 0\\\\.943481\\\\ 4\\\\.25195H1\\\\.38098V13\\\\.002C1\\\\.38098\\\\ 13\\\\.9863\\\\ 2\\\\.14661\\\\ 14\\\\.752\\\\ 3\\\\.13098\\\\ 14\\\\.752H10\\\\.131C11\\\\.088\\\\ 14\\\\.752\\\\ 11\\\\.881\\\\ 13\\\\.9863\\\\ 11\\\\.881\\\\ 13\\\\.002V4\\\\.25195H12\\\\.3185C12\\\\.5372\\\\ 4\\\\.25195\\\\ 12\\\\.756\\\\ 4\\\\.06055\\\\ 12\\\\.756\\\\ 3\\\\.81445V3\\\\.37695C12\\\\.756\\\\ 3\\\\.1582\\\\ 12\\\\.5372\\\\ 2\\\\.93945\\\\ 12\\\\.3185\\\\ 2\\\\.93945ZM5\\\\.18176\\\\ 2\\\\.14648C5\\\\.20911\\\\ 2\\\\.11914\\\\ 5\\\\.26379\\\\ 2\\\\.06445\\\\ 5\\\\.34583\\\\ 2\\\\.06445H7\\\\.91614C7\\\\.97083\\\\ 2\\\\.06445\\\\ 8\\\\.02551\\\\ 2\\\\.11914\\\\ 8\\\\.05286\\\\ 2\\\\.14648L8\\\\.5177\\\\ 2\\\\.93945H4\\\\.71692L5\\\\.18176\\\\ 2\\\\.14648ZM10\\\\.131\\\\ 13\\\\.4395H3\\\\.13098C2\\\\.88489\\\\ 13\\\\.4395\\\\ 2\\\\.69348\\\\ 13\\\\.248\\\\ 2\\\\.69348\\\\ 13\\\\.002V4\\\\.25195H10\\\\.5685V13\\\\.002C10\\\\.5685\\\\ 13\\\\.248\\\\ 10\\\\.3497\\\\ 13\\\\.4395\\\\ 10\\\\.131\\\\ 13\\\\.4395ZM6\\\\.63098\\\\ 12\\\\.127C6\\\\.84973\\\\ 12\\\\.127\\\\ 7\\\\.06848\\\\ 11\\\\.9355\\\\ 7\\\\.06848\\\\ 11\\\\.6895V6\\\\.00195C7\\\\.06848\\\\ 5\\\\.7832\\\\ 6\\\\.84973\\\\ 5\\\\.56445\\\\ 6\\\\.63098\\\\ 5\\\\.56445C6\\\\.38489\\\\ 5\\\\.56445\\\\ 6\\\\.19348\\\\ 5\\\\.7832\\\\ 6\\\\.19348\\\\ 6\\\\.00195V11\\\\.6895C6\\\\.19348\\\\ 11\\\\.9355\\\\ 6\\\\.38489\\\\ 12\\\\.127\\\\ 6\\\\.63098\\\\ 12\\\\.127ZM4\\\\.44348\\\\ 12\\\\.127C4\\\\.66223\\\\ 12\\\\.127\\\\ 4\\\\.88098\\\\ 11\\\\.9355\\\\ 4\\\\.88098\\\\ 11\\\\.6895V6\\\\.00195C4\\\\.88098\\\\ 5\\\\.7832\\\\ 4\\\\.66223\\\\ 5\\\\.56445\\\\ 4\\\\.44348\\\\ 5\\\\.56445C4\\\\.19739\\\\ 5\\\\.56445\\\\ 4\\\\.00598\\\\ 5\\\\.7832\\\\ 4\\\\.00598\\\\ 6\\\\.00195V11\\\\.6895C4\\\\.00598\\\\ 11\\\\.9355\\\\ 4\\\\.19739\\\\ 12\\\\.127\\\\ 4\\\\.44348\\\\ 12\\\\.127ZM8\\\\.81848\\\\ 12\\\\.127C9\\\\.03723\\\\ 12\\\\.127\\\\ 9\\\\.25598\\\\ 11\\\\.9355\\\\ 9\\\\.25598\\\\ 11\\\\.6895V6\\\\.00195C9\\\\.25598\\\\ 5\\\\.7832\\\\ 9\\\\.03723\\\\ 5\\\\.56445\\\\ 8\\\\.81848\\\\ 5\\\\.56445C8\\\\.57239\\\\ 5\\\\.56445\\\\ 8\\\\.38098\\\\ 5\\\\.7832\\\\ 8\\\\.38098\\\\ 6\\\\.00195V11\\\\.6895C8\\\\.38098\\\\ 11\\\\.9355\\\\ 8\\\\.57239\\\\ 12\\\\.127\\\\ 8\\\\.81848\\\\ 12\\\\.127Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".rounded-circle\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".react-select__value-container\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Planning'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#button-confirmation-delete\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiPaper-root .d-flex\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".btn-secondary\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "6"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='display\\\\:\\\\ table-cell\\\\;\\\\ vertical-align\\\\:\\\\ middle\\\\;\\\\ white-space\\\\:\\\\ nowrap\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(7) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(8) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".title-text\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".main-body > .dashboard-header\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(3) > :nth-child(2) > :nth-child(2)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 3']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/24768\\\\/project\\\\/39767\\\\/katalon-eyes\\\\/17']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "5",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".d-block\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(11) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#cb-zone-green\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".title-text\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263259-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "submit",
+                "{\"#search-input\":{\"name\":null,\"value\":\"\"},\"[data-trackid='copy-api-key']\":{\"name\":null,\"value\":\"\"},\".filter-btn\":{\"name\":null,\"value\":\"\"}}",
+                "[\"#search-input\",\".filter-btn\",\"[data-trackid='copy-api-key']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Aug\\\\ 9\\\\,\\\\ 2022']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Planning'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".btn-secondary\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".badge\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[alt='Anh\\\\ Le']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#cb-zone-pink\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiBackdrop-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(6) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(11) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='outline\\\\:\\\\ rgb\\\\(255\\\\,\\\\ 0\\\\,\\\\ 0\\\\)\\\\ solid\\\\ 2px\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "8"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Test\\\\ Management'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Visual\\\\ Testing'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"span.project-dashboard-header-title\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='background-image\\\\:\\\\ url\\\\(\\\\\\\"\\\\/api\\\\/v1\\\\/files\\\\/357880964\\\\\\\"\\\\)\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiAutocomplete-root.mr-4 .mt-2\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiBackdrop-root\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='background-image\\\\:\\\\ url\\\\(\\\\\\\"\\\\/api\\\\/v1\\\\/files\\\\/357889593\\\\\\\"\\\\)\\\\;']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Settings'] .icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263249-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#failure-reason-select-option-2\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#cancel-confirmation-delete\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Visual\\\\ Testing'] .nav-item-label\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(4) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(8) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[style='opacity\\\\:\\\\ 0\\\\.435\\\\;'] .toast-close-button\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[aria-label='Page\\\\ 1']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/294147\\\\/executions\\\\/2\\\\/test-result\\\\/102263261-tc1_verify-successful-login_with-testops-vision']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#refresh-btn\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "change",
+                "{\"#cb-zone-green\":{\"name\":\"matchZone\",\"value\":\"on\"}}",
+                "[\"#cb-zone-green\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[data-trackid='view-all-projects']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"#repository\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "11",
+                "11"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".react-select__value-container--has-value\"]"
+            ]
+        },
+        {
+            "edge": [
+                "1",
+                "4"
+            ],
+            "attribute": [
+                "view", NaN, NaN
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[tabindex][title='Anh\\\\ Le']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "0",
+                "0"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M11\\\\.8125\\\\ 1\\\\.49219L6\\\\.58984\\\\ 6\\\\.49609C6\\\\.42578\\\\ 6\\\\.63281\\\\ 6\\\\.26172\\\\ 6\\\\.6875\\\\ 6\\\\.125\\\\ 6\\\\.6875C5\\\\.96094\\\\ 6\\\\.6875\\\\ 5\\\\.79688\\\\ 6\\\\.63281\\\\ 5\\\\.66016\\\\ 6\\\\.52344L0\\\\.410156\\\\ 1\\\\.49219C0\\\\.136719\\\\ 1\\\\.24609\\\\ 0\\\\.136719\\\\ 0\\\\.808594\\\\ 0\\\\.382812\\\\ 0\\\\.5625C0\\\\.628906\\\\ 0\\\\.289062\\\\ 1\\\\.06641\\\\ 0\\\\.289062\\\\ 1\\\\.3125\\\\ 0\\\\.535156L6\\\\.125\\\\ 5\\\\.12891L10\\\\.9102\\\\ 0\\\\.535156C11\\\\.1562\\\\ 0\\\\.289062\\\\ 11\\\\.5938\\\\ 0\\\\.289062\\\\ 11\\\\.8398\\\\ 0\\\\.5625C12\\\\.0859\\\\ 0\\\\.808594\\\\ 12\\\\.0859\\\\ 1\\\\.24609\\\\ 11\\\\.8125\\\\ 1\\\\.49219Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".mr-4 .mt-2\"]"
+            ]
+        },
+        {
+            "edge": [
+                "7",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(10) > :nth-child(3) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "7"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[href='\\\\/team\\\\/143841\\\\/project\\\\/158146\\\\/baseline-collection\\\\/63']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[width='\\\\31 6px']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "4",
+                "4"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[d='M8\\\\.29761\\\\ 1\\\\.98999C8\\\\.8148\\\\ 2\\\\.00762\\\\ 9\\\\.14979\\\\ 2\\\\.18981\\\\ 9\\\\.42602\\\\ 2\\\\.52481C9\\\\.9726\\\\ 3\\\\.18306\\\\ 10\\\\.6779\\\\ 3\\\\.52981\\\\ 11\\\\.5359\\\\ 3\\\\.53569C12\\\\.3822\\\\ 3\\\\.54156\\\\ 13\\\\.0875\\\\ 3\\\\.21244\\\\ 13\\\\.6517\\\\ 2\\\\.57771C14\\\\.1924\\\\ 1\\\\.96648\\\\ 14\\\\.6449\\\\ 1\\\\.85482\\\\ 15\\\\.409\\\\ 2\\\\.15455C16\\\\.4492\\\\ 2\\\\.56008\\\\ 17\\\\.3955\\\\ 3\\\\.12428\\\\ 18\\\\.2535\\\\ 3\\\\.83542C18\\\\.7355\\\\ 4\\\\.23507\\\\ 18\\\\.8824\\\\ 4\\\\.76401\\\\ 18\\\\.6767\\\\ 5\\\\.35173C18\\\\.089\\\\ 7\\\\.05611\\\\ 19\\\\.0528\\\\ 8\\\\.71347\\\\ 20\\\\.8277\\\\ 9\\\\.04847C21\\\\.4801\\\\ 9\\\\.17189\\\\ 21\\\\.8327\\\\ 9\\\\.53627\\\\ 21\\\\.9561\\\\ 10\\\\.1945C22\\\\.1795\\\\ 11\\\\.3935\\\\ 22\\\\.1618\\\\ 12\\\\.5865\\\\ 21\\\\.9326\\\\ 13\\\\.7796C21\\\\.8268\\\\ 14\\\\.3438\\\\ 21\\\\.3861\\\\ 14\\\\.7493\\\\ 20\\\\.8101\\\\ 14\\\\.8434C18\\\\.9764\\\\ 15\\\\.1313\\\\ 17\\\\.9597\\\\ 16\\\\.8592\\\\ 18\\\\.612\\\\ 18\\\\.6047C18\\\\.8354\\\\ 19\\\\.1983\\\\ 18\\\\.6943\\\\ 19\\\\.7449\\\\ 18\\\\.2124\\\\ 20\\\\.1446C17\\\\.3837\\\\ 20\\\\.8322\\\\ 16\\\\.4669\\\\ 21\\\\.3788\\\\ 15\\\\.4677\\\\ 21\\\\.7843C14\\\\.8859\\\\ 22\\\\.0194\\\\ 14\\\\.2923\\\\ 21\\\\.8724\\\\ 13\\\\.9103\\\\ 21\\\\.3729C12\\\\.7701\\\\ 19\\\\.8625\\\\ 10\\\\.5251\\\\ 19\\\\.9036\\\\ 9\\\\.44365\\\\ 21\\\\.4317C9\\\\.06751\\\\ 21\\\\.9665\\\\ 8\\\\.4798\\\\ 22\\\\.1134\\\\ 7\\\\.8627\\\\ 21\\\\.8783C6\\\\.77542\\\\ 21\\\\.4669\\\\ 5\\\\.78805\\\\ 20\\\\.891\\\\ 4\\\\.88885\\\\ 20\\\\.1563C4\\\\.39517\\\\ 19\\\\.7508\\\\ 4\\\\.27175\\\\ 19\\\\.1866\\\\ 4\\\\.53622\\\\ 18\\\\.5518C5\\\\.18271\\\\ 17\\\\.0062\\\\ 4\\\\.37166\\\\ 15\\\\.29\\\\ 2\\\\.77895\\\\ 14\\\\.8257C2\\\\.59088\\\\ 14\\\\.7728\\\\ 2\\\\.39105\\\\ 14\\\\.7434\\\\ 2\\\\.19711\\\\ 14\\\\.7141C1\\\\.64465\\\\ 14\\\\.6259\\\\ 1\\\\.2215\\\\ 14\\\\.2027\\\\ 1\\\\.13334\\\\ 13\\\\.6444C0\\\\.939392\\\\ 12\\\\.4513\\\\ 0\\\\.957023\\\\ 11\\\\.2642\\\\ 1\\\\.18623\\\\ 10\\\\.077C1\\\\.30965\\\\ 9\\\\.43636\\\\ 1\\\\.73281\\\\ 9\\\\.04259\\\\ 2\\\\.39693\\\\ 8\\\\.95443C3\\\\.86034\\\\ 8\\\\.76049\\\\ 4\\\\.88297\\\\ 7\\\\.56742\\\\ 4\\\\.81832\\\\ 6\\\\.09813C4\\\\.80657\\\\ 5\\\\.80427\\\\ 4\\\\.72429\\\\ 5\\\\.50454\\\\ 4\\\\.63025\\\\ 5\\\\.22243C4\\\\.42455\\\\ 4\\\\.59945\\\\ 4\\\\.57148\\\\ 4\\\\.05875\\\\ 5\\\\.08279\\\\ 3\\\\.65323C5\\\\.93498\\\\ 2\\\\.98323\\\\ 6\\\\.87533\\\\ 2\\\\.46016\\\\ 7\\\\.89208\\\\ 2\\\\.0899C8\\\\.05076\\\\ 2\\\\.03113\\\\ 8\\\\.21532\\\\ 2\\\\.00762\\\\ 8\\\\.29761\\\\ 1\\\\.98999ZM15\\\\.0799\\\\ 12\\\\.0106C15\\\\.1034\\\\ 10\\\\.1181\\\\ 13\\\\.54\\\\ 8\\\\.49601\\\\ 11\\\\.6593\\\\ 8\\\\.47251C9\\\\.66698\\\\ 8\\\\.44312\\\\ 8\\\\.06252\\\\ 9\\\\.98881\\\\ 8\\\\.04489\\\\ 11\\\\.9459C8\\\\.02138\\\\ 13\\\\.8677\\\\ 9\\\\.57295\\\\ 15\\\\.484\\\\ 11\\\\.4654\\\\ 15\\\\.5075C13\\\\.4578\\\\ 15\\\\.5369\\\\ 15\\\\.0505\\\\ 13\\\\.997\\\\ 15\\\\.0799\\\\ 12\\\\.0106Z']\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(4)\"]"
+            ]
+        },
+        {
+            "edge": [
+                "3",
+                "3"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\".MuiBadge-root .icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "6",
+                "6"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\"[title='Recent\\\\ Work'] .icon-hover svg\"]"
+            ]
+        },
+        {
+            "edge": [
+                "2",
+                "2"
+            ],
+            "attribute": [
+                "click", NaN,
+                "[\":root > :nth-child(5) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)\"]"
+            ]
+        }
+    ]
+}
