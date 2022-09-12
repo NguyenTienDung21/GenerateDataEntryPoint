@@ -1,0 +1,3 @@
+/src/variable_processing/lexer/parsetab.py
+/src/variable_processing/lexer/parser.out
+**/*.json
